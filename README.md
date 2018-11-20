@@ -9,7 +9,7 @@ Click here to open: https://ww9.github.io/mysql2sqlite/
 
 ## Why?
 
-I needed to convert an MySQL SQL file to SQLite and couldn't find an online solution. So I wrote one.
+I needed to convert a MySQL SQL file to SQLite and couldn't find an online solution. So I wrote one.
 
 ## Problem converting SQL file?
 
