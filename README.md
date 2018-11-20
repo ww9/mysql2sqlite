@@ -6,9 +6,14 @@ Click here to open: https://ww9.github.io/mysql2sqlite/
 
 [![Screenshot](/screenshot.png)](https://ww9.github.io/mysql2sqlite/)
 
+
+## Why?
+
+I needed to convert an MySQL SQL file to SQLite and couldn't find an online solution. So I wrote one.
+
 ## Problem converting SQL file?
 
-If the tool doesn't convert your SQL file as expected please create an issue. Preferably include source SQL file or a sample to reproduce the problem.
+This was tested with only the MySQL SQL file I needed to convert. If the tool doesn't convert your SQL file as expected please create an issue. Preferably include source SQL file or a sample to reproduce the problem.
 
 ## License
 
