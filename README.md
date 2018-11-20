@@ -1,4 +1,4 @@
-# MySQL2SQLite
+# MySQL to SQLite online converter 🔨
 
 Online tool that converts SQL code from MySQL to SQLite format.
 
