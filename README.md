@@ -4,11 +4,11 @@ Online tool that converts SQL code from MySQL to SQLite format.
 
 Click here to open: https://ww9.github.io/mysql2sqlite/
 
-![Screenshot](/screenshot.png)
+[![Screenshot](/screenshot.png)](https://ww9.github.io/mysql2sqlite/)
 
 ## Problem converting SQL file?
 
-If the tool doesn't convert your SQL file very well please create an issue. Preferably with the gist of the source SQL file.
+If the tool doesn't convert your SQL file as expected please create an issue. Preferably include source SQL file or a sample to reproduce the problem.
 
 ## License
 
