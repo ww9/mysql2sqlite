@@ -6,10 +6,14 @@ Click here to open: https://ww9.github.io/mysql2sqlite/
 
 [![Screenshot](/screenshot.png)](https://ww9.github.io/mysql2sqlite/)
 
-
 ## Why?
 
 I needed to convert a MySQL SQL file to SQLite and couldn't find an online solution. So I wrote one.
+
+## Todo
+
+- [ ] Create sample SQL for testing, embedded inside `index.html` and add [Sample] button that uses it.
+- [ ] Implement options like `don't remove comments`,  `custom escaping`
 
 ## Problem converting SQL file?
 
