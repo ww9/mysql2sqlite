@@ -1,3 +1,5 @@
+[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+
 # MySQL to SQLite online converter
 
 Online tool that converts SQL code from MySQL to SQLite format.
