@@ -1,8 +1,8 @@
-# MySQL to SQLite online converter 🔨
+# MySQL to SQLite online converter
 
 Online tool that converts SQL code from MySQL to SQLite format.
 
-Click here to open it: https://ww9.github.io/mysql2sqlite/
+Click here to open: https://ww9.github.io/mysql2sqlite/
 
 ![Screenshot](/screenshot.png)
 
