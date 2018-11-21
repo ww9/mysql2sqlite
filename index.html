@@ -38,10 +38,15 @@
 <body>
 	<script>
 		function convert() {
-			var sqlite = "PRAGMA journal_mode = MEMORY;\n" + 
+			var sqlite = "" +
+			"-- import to SQLite by running: sqlite3.exe db.sqlite3 -init sqlite.sql\n\n" +
+			"PRAGMA journal_mode = MEMORY;\n" +
 			"PRAGMA synchronous = OFF;\n" +
-			"BEGIN TRANSACTION;\n";
-			sqlite = "";
+			"PRAGMA foreign_keys = OFF;\n" +
+			"PRAGMA ignore_check_constraints = OFF;\n" +
+			"PRAGMA auto_vacuum = NONE;\n" +
+			"PRAGMA secure_delete = OFF;\n" +
+			"BEGIN TRANSACTION;\n\n";
 
 			var currentTable = '';
 
@@ -110,7 +115,16 @@
 			sqlite = sqlite.replace(/,\n\);/g, "\n);");
 
 			// Include all gathered keys as CREATE INDEX
-			sqlite += "\n\n" + keys.join("\n");
+			sqlite += "\n\n" + keys.join("\n") + "\n\n";
+
+			// Re-enable foreign key check
+			sqlite += "COMMIT;\n" +
+			"PRAGMA ignore_check_constraints = ON;\n" +
+			"PRAGMA foreign_keys = ON;\n" +
+			"PRAGMA journal_mode = WAL;\n" +
+			"PRAGMA synchronous = NORMAL;\n";
+
+
 
 			document.getElementById('sqlite').value = sqlite;
 		}
