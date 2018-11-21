@@ -19,7 +19,7 @@ I needed to convert a MySQL SQL file to SQLite and couldn't find an online solut
 
 ## Problem converting SQL file?
 
-This was tested with only the MySQL SQL file I needed to convert. If the tool doesn't convert your SQL file as expected please create an issue. Preferably include source SQL file or a sample to reproduce the problem.
+This was tested with only the MySQL SQL file I needed to convert. If the tool doesn't convert your SQL file correctly please [create an issue](https://github.com/ww9/mysql2sqlite/issues). Preferably include the SQL file you're trying to convert or some sample code that's not being converted correctly.
 
 ## License
 
