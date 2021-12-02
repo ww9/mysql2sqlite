@@ -1,8 +1,16 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
+# Update 2021-12-01
+
+I'll be mantaining this repo.
+
+Plans are to keep it simple but if we want to make this work properly we will have to add a bit of extra tooling. At the very least tests to prevent regressions and make sure conversion work as intended.
+
+Perhaps TypeScript and svelte too. Let me know what you think.
+
 # MySQL to SQLite online converter
 
-Online tool that converts SQL code from MySQL to SQLite format.
+Online tool that converts SQL DDL code from MySQL to SQLite format.
 
 Click here to open: https://ww9.github.io/mysql2sqlite/
 
@@ -14,8 +22,9 @@ I needed to convert a MySQL SQL file to SQLite and couldn't find an online solut
 
 ## Todo
 
-- [ ] Create sample SQL for testing, embedded inside `index.html` and add [Sample] button that uses it.
-- [ ] Implement options like `don't remove comments`,  `custom escaping`
+- [ ] Create tests and make sure they fix current Issues.
+- [ ] Create sample SQL for testing.
+- [ ] Implement options like `don't remove comments`,  `custom escaping`.
 
 ## Problem converting SQL file?
 
