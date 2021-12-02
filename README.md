@@ -4,7 +4,7 @@
 
 I'll be mantaining this repo.
 
-Plans are to keep it simple but if we want to make this work properly we will have to add a bit of extra tooling. At the very least tests to prevent regressions and make sure conversion work as intended.
+Plans are to keep it simple but if we want to make this work properly we will have to add a bit of extra tooling. At the very least tests to prevent regressions and make sure conversion works as intended.
 
 Perhaps TypeScript and svelte too. Let me know what you think.
 
