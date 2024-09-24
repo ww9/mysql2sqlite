@@ -126,7 +126,7 @@
 
 
 
-			document.getElementById('sqlite').value = sqlite;
+			document.getElementById('sqlite').value = sqlite.replaceAll(/0x(\w+)/ig, "X'$1'");
 		}
 	</script>
 
