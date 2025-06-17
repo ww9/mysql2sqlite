@@ -1,5 +1,8 @@
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
+Update: I'm glad this seems to be useful. It's rather limited so please send PRs if you happen to have some improvement ready. Thank you!
+I might get back to developing this.
+
 # MySQL to SQLite online converter
 
 Online tool that converts SQL DDL code from MySQL to SQLite format.
